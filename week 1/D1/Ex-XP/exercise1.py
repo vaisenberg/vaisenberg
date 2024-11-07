@@ -1,5 +1,5 @@
 #exer 1 
-print("Hello World")
+print("Hello World\n"*4)
 #exer2
 print(99**3*8)
 # exercise 3 
