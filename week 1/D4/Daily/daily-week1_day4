@@ -1,0 +1,24 @@
+matrix = [
+    "7ii",
+    "Tsx",
+    "h%?",
+    "i #",
+    "sM ",
+    "$a ",
+    "#t%",
+    "^r!"
+]
+
+decoded_message = ""
+
+for col in range(len(matrix[0])):
+    for row in range(len(matrix)):
+        char = matrix[row][col]
+        if char.isalpha():
+            decoded_message += char
+        else:
+            if decoded_message and decoded_message[-1].isalpha():
+                decoded_message += " "
+cleaned_message = ' '.join(decoded_message.split())
+
+print(cleaned_message)

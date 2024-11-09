@@ -234,6 +234,6 @@ def quiz():
             print(f"Your Answer: {wrong_answer[2]}\n")
 
    
-        if incorrect_answers > 3:
+    if incorrect_answers > 3:
             print("You have more than 3 wrong answers. You have to play again")
 quiz()
