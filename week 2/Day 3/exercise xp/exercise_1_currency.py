@@ -25,18 +25,18 @@ class Currency:
             
     def __iadd__(self, other):
         if isinstance(other, int):
-        # Increment the amount by an integer
+       
             self.amount += other
         elif isinstance(other, Currency):
-        # Check if both currency types match
+     
             if self.currency != other.currency:
                 raise TypeError(f"Cannot add between Currency type <{self.currency}> and <{other.currency}>")
-        # Increment the amount by the other Currency's amount
+      
             self.amount += other.amount
         else:
-        # Return NotImplemented if the type is unsupported
+      
             return NotImplemented
-        return self  # Return self to enable in-place addition
+        return self
     
     def info(self):
     #  print(({self.currency},{self.amount}))
