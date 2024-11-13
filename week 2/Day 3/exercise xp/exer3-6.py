@@ -19,6 +19,30 @@ def display_current_date():
 display_current_date()
 
 # exercise 5
+from datetime import datetime
+
+def time_until_january_first():
+    now = datetime.now()
+    
+   
+    jan_first = datetime(now.year + 1, 1, 1)
+    
+    time_left = jan_first - now
+    
+    days_left = time_left.days
+    total_seconds_left = time_left.seconds
+    
+    hours_left = total_seconds_left // 3600         
+    remaining_seconds = total_seconds_left % 3600   
+    minutes_left = remaining_seconds // 60         
+    seconds_left = remaining_seconds % 60           
+    
+    print(f"The 1st of January is in {days_left} days and {hours_left}:{minutes_left:02}:{seconds_left:02} hours.")
+
+
+time_until_january_first()
+
+# exercise 6
 
 from datetime import date
 
