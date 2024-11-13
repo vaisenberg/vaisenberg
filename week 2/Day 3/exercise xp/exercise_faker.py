@@ -18,7 +18,7 @@ def add_user():
     users.append(user_data)
 
 
-for _ in range(5):  
+for i in range(5):  
     add_user()
 
 print(users)
