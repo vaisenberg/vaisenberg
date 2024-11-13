@@ -34,4 +34,4 @@ class PetDog(Dog):
 dog1 = Dog("Nes", 5, 30,)  
 pet_dog1 = PetDog("Bobby", 3, 25,)  
 pet_dog2 = PetDog("Rusty", 8, 40,) 
-)
+
