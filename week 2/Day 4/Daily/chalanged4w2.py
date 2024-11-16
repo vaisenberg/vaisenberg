@@ -11,8 +11,8 @@ class Text:
     
     def _clean_text(self, text):
         """Cleans the text and returns a list of words."""
-        text = text.lower()  # Convert to lowercase for case-insensitivity
-        words = text.split()  # Split text by whitespace into words
+        text = text.lower()  
+        words = text.split()  
         return words
 
     def word_frequency(self, word):
@@ -65,7 +65,7 @@ class TextModification(Text):
 # Example usage:
 
 # Text string
-text = "A good book would sometimes cost as much as a good house!"
+text = ""
 
 # Create an object of TextModification
 my_text = TextModification(text)
