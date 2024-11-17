@@ -20,4 +20,7 @@
 -- INSERT INTO actors (first_name, last_name, age, number_oscars)
 -- VALUES('Meril','Streep','22/06/1949', 3)
 -- SELECT * FROM actors
--- SELECT COUNT(*) FROM actors
+-- SELECT COUNT(*) FROM actors - 5
+-- INSERT INTO actors (first_name, last_name, age, number_oscars) - no value data entered
+-- VALUES() - syntax error since we set a table's items NOT NULL
+-- SELECT * FROM actors
