@@ -1,0 +1,20 @@
+-- FOREIGN KEY
+-- THE TABLE THAT HAS A FOREIGN KEY IS THE CHILD
+-- THE TABLE WITH CANDIDATE KEY IS A PARENT
+-- CREATE TABLE MOVIES
+-- CREATE TABLE movies(
+-- movie_id SERIAL,
+-- movie_title VARCHAR(100) NOT NULL,
+-- movie_story TEXT,
+-- actor_playing_id INTEGER,
+-- PRIMARY KEY (movie_id),
+-- FOREIGN KEY (actor_playing_id) REFERENCES actors(actor_id))
+-- SELECT * FROM movies
+-- CREATE TABLE producers(
+-- producers_id SERIAL,
+-- name_producers VARCHAR(50) NOT NULL,
+-- last_name VARCHAR(50) NOT NULL,
+-- movie_producer_id INTEGER,
+-- PRIMARY KEY (producers_id),
+-- FOREIGN KEY (movie_producer_id) REFERENCES movies(movie_id))
+-- SELECT * FROM producers
