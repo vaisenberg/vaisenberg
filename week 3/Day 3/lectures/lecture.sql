@@ -1,0 +1,16 @@
+
+-- PARENT TABLE
+-- CREATE TABLE colors(
+-- color_id SERIAL PRIMARY KEY,
+-- color_name VARCHAR(100) NOT NULL)
+-- INSERT INTO colors (color_name)
+-- VALUES ('blue'), ('yellow'), ('red'), ('grey')
+-- SELECT * FROM colors
+-- CREATE TABLE cars(
+-- car_id SERIAL PRIMARY KEY,
+-- car_color INTEGER REFERENCES colors (color_id) ON DELETE RESTRICT,
+-- car_name TEXT);
+-- INSERT INTO cars(car_color, car_name)
+-- VALUES 
+-- ((SELECT color_id from colors WHERE color_name = 'red'), 'Ferrary')
+-- SELECT * FROM cars
