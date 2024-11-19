@@ -1,0 +1,35 @@
+-- CREATE TABLE FirstTab (
+--      id integer, 
+--      name VARCHAR(10)
+-- );
+-- INSERT INTO FirstTab VALUES
+-- (5,'Pawan'),
+-- (6,'Sharlee'),
+-- (7,'Krish'),
+-- (NULL,'Avtaar');
+-- SELECT * FROM FirstTab
+-- CREATE TABLE SecondTab (
+--     id integer 
+-- );
+-- INSERT INTO SecondTab VALUES
+-- (5),
+-- (NULL);
+-- SELECT * FROM SecondTab
+-- Q1. What will be the OUTPUT of the following statement?
+-- it will returt 0 rows where in the FirstTab id IS NULL in SecondTab
+-- SELECT COUNT(*) FROM FirstTab AS ft 
+-- WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NULL )
+-- Q2. What will be the OUTPUT of the following statement?
+-- it will return number 0f 2 rows wich have if of 5
+-- selects number if id
+-- SELECT COUNT(*) FROM FirstTab AS ft 
+-- WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id = 5 )
+-- Q3. What will be the OUTPUT of the following statement?
+-- it will return number of rows from firstTab which id is not included in secondTab
+-- SELECT COUNT(*)  FROM FirstTab AS ft 
+-- WHERE ft.id NOT IN ( SELECT id FROM SecondTab )
+-- Q4. What will be the OUTPUT of the following statement?
+-- number of rows wchich is 2 wchich are not null in in FirstTab
+-- SELECT COUNT(*) 
+-- FROM FirstTab AS ft 
+-- WHERE ft.id NOT IN ( SELECT id FROM SecondTab WHERE id IS NOT NULL )
