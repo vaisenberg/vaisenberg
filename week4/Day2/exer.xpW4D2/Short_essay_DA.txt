@@ -1,0 +1,59 @@
+    DATA analytics is the process of analyzing raw data to draw out meaningful insights. These insights are then used to determine the best course of action.
+This is done through through different  processes: of inspecting, cleaning, transforming, and modeling data using analytical and statistical tools.
+Why is data analysis important? Analyzing data effectively helps organizations make business decisions. Nowadays, data is collected by businesses constantly:
+through surveys, online tracking, online marketing analytics, collected subscription and registration data (think newsletters), social media monitoring,
+among other methods.
+
+DATA analytics is a powerful tool in today’s marketplace that can be used to make decisions and craft business strategies. Across industries,
+organizations generate vast amounts of data which, in turn, has heightened the need for professionals who are data literate and know how to interpret 
+and analyze that information.
+Professor Jan Hammond, Harvard Business School:
+    “Using DATA analytics is a very effective way to have influence in an organization,
+    If you’re able to go into a meeting and other people have opinions, but you have data 
+    to support your arguments and your recommendations, you’re going to be influential.” 
+
+    Data analysis has become an indispensable tool for businesses seeking to thrive in today’s data driven world. By unveiling actionable insights,
+enhancing customer understanding, enabling data driven decision-making, identifying market opportunities, improving operational efficiency, and 
+mitigating risks, data analysis has transformed the way businesses operate. Embracing data analysis as a strategic asset empowers
+organizations to stay ahead of the competition, make informed decisions, and drive sustainable growth in the dynamic business landscape of today and beyond.
+
+    It is beleived and being outlined that current trends of Data analytics:
+    AI-Powered Data Analytics;
+    Data-Centric AI;
+    Metadata-Driven Data Fabric;
+    Edge Computing.
+
+    Generation, processing, and data storage are critical steps for any organization. It comprises numerous hidden pieces of information 
+waiting to be explored by a professional with expertise in data handling.
+
+    AI-powered data analytics are now trending due to advanced and dynamic algorithms that assess data at different scales and fuel multiple 
+cases that cannot be performed using traditional methods. It is known that AI algorithms have raised the production lead by 50%, where 80% 
+of employees stated productivity improvement. In addition, 37% growth in the global AI market size is expected by 2030.
+
+    One of the data analytics trends, data-centric artificial intelligence, refers to the systematic order of data engineered to generate AI systems. 
+It mainly focuses on understanding, applying, and making decisions based on the data. It does not rely on algorithms but uses data analytics and machine 
+learning to learn from data for better data management. 
+
+    Data fabric is a system that isolates information from metadata, learns, and takes actions accordingly. Also, it flags out the opportunities or 
+issues associated with data and offers suggestions to overcome them.The main goal is to manage data systematically, and this has decreased 70% of several 
+data management tasks, including deployment and designs. 
+
+    One of the data analytics trends, Edge Computing, is a range of devices and networks near the users. It offers a path to collect data from devices via
+low-latency connectivity, high-performance processing, and secure platforms. It is an emerging computing paradigm where data is processed at the periphery 
+of the network. Here, edge computing speeds up the data travel from a device to a nearby edge. Edge computing is primarily used to move data storage to its
+origin or source, leading to easy data management. In addition, you get accurate data and valuable insights that help with informed decisions, thus reducing 
+costs and leading to performing continuous operations. The approach is valuable in the business market, generating opportunities to increase the use of digital
+experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
