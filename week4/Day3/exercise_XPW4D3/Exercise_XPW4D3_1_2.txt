@@ -1,0 +1,67 @@
+Exercise 1 : Identifying Data Types
+
+*A company’s financial reports stored in an Excel file - Structured Data - most of it, structured Data which will be organized in columns (fields- like periods) and rows which are attributes of relevant values, whilst separate sections like: Comments or notes, some graphs and images like logo, etc. are not part structured data in the financial report
+
+*Photographs uploaded to a social media platform (unless Meta Data is attached to them, but images itself is definitely unstructured data )
+
+*A collection of news articles on a website – Unstructured Data
+
+*Inventory data in a relational database - Structured Data since it is organized in columns and rows
+
+*Recorded interviews from a market research study -  – Unstructured Data . But they can become structured data once they are transcribed into text, especially if the transcriptions are organized into structured formats, such as tables or spreadsheets. For example, if interview responses are categorized by themes or if sentiment is analyzed and tagged, the resulting data would be structured, making it easier to analyze and extract insights.
+
+Exercise 2: Transformation Exercise
+
+*A series of blog posts about travel experiences :	
+ 1. Manual Tagging - going through posts and tagging them into different predefined tags like location, type of costs: hotel, eating, transport, entertainment, cost -value wise, currency, or rating.
+
+ 2. For blogs about traveling expenses:
+	* NLP can be used in the following ways:
+		
+	Extracting Cost Information: Identify and extract mentions of expenses like accommodation, food, transportation, and activities.
+	
+	Currency Recognition: Use Named Entity Recognition (NER) to detect currency mentions (e.g., USD, EUR).
+	
+	Summarizing Costs: Calculate average costs for different categories across posts using text summarization or text mining.
+	Categorization: Automatically classify blogs into structured categories such as Trip Destination, Expense Category, and Total 	Cost.
+
+	Sentiment and Recommendation Analysis: Extract sentiment on how affordable or expensive a destination is.
+	
+	*Also Regular expressions (regex) tool for text processing that allow you to find and extract patterns in unstructured text. In 	the 	context of travel blogs on expenses (I actually run it and really loved it)
+
+3. For Audio recordings of customer service calls.
+	*Transcribe the Audio: Use Speech-to-Text technology like Google's Speech API to convert the audio into text.
+	*Apply Sentiment Analysis: Analyze the sentiment of the conversation using tools like VADER or TextBlob to classify customer 	satisfaction (positive, negative, neutral).
+	TextBlob is a Python library for processing textual data. It provides simple APIs for common text processing tasks such as:
+
+		Sentiment Analysis: It can classify text into positive, negative, or neutral sentiment by analyzing the polarity and 			subjectivity.
+		Text Translation: It supports translation of text between various languages.
+		Part-of-Speech Tagging: Identifies words' roles (nouns, verbs, adjectives).
+		Text Classification: Can be used to classify text into predefined categories.
+	*Categorize the Content: You can then categorize the issues raised by the customer (e.g., billing, technical support, product 	inquiry) and create fields like:
+
+		Customer Issue (e.g., Billing)
+		Resolution Status (e.g., Resolved, Pending)
+		Sentiment (e.g., Positive, Negative)
+	Named Entity Recognition (NER) can be used to extract specific entities such as names, dates, locations, and other important 	details from customer service transcriptions. By identifying and categorizing these entities, you can improve the precision of 	issue categorization. For example, NER could recognize “billing” as an entity, and keyword matching can map it to “Billing issue.” 	Combining these techniques, you can also extract resolution timelines, customer names, and determine if the sentiment is linked to 	specific issues. This makes the data more structured and actionable.
+
+
+
+4. For Handwritten notes from a brainstorming session it is possible optical character recognition (OCR) to convert the handwritten notes 	into text. Then, categorize the data into themes or ideas (e.g., action items, ideas, or suggestions).
+
+5. For A video tutorial on cooking - Method: Use video transcription for spoken content, then apply object detection or scene     classification to identify and tag actions or ingredients. Organize the data into categories like ingredients, steps, time, and tools.
+	*Video Transcription: First, convert the spoken words in the video into text using speech-to-text technologies (like Google 	Speech-to-Text or Whisper). This generates the dialogue and spoken information.
+
+	*Object Detection: Apply computer vision techniques to detect objects in the video, such as ingredients, utensils, or kitchen 	*tools. Tools like YOLO (You Only Look Once) or TensorFlow can identify these objects from frames.
+
+	*Scene Classification: Use machine learning models to classify different scenes (e.g., "ingredient preparation," "cooking," "final 	product").
+
+	*Categorization: Finally, organize the extracted data into structured categories:
+
+		Ingredients (e.g., “flour,” “sugar”)
+		Steps (e.g., “mix the ingredients”)
+		Time (e.g., “10 minutes” for a step)
+		Tools (e.g., “blender,” “oven”)
+
+
+
