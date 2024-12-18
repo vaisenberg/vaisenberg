@@ -1,0 +1,10 @@
+Plan Name,Price,Features
+Shared Hosting,$3.19,
+VPS Hosting,$9.99,
+Dedicated Hosting,$35.00,
+Essential WP,$3.69,
+Managed WP,$4.17,
+Shared Hosting,$3.19,"Free Domain & SSL, Free Website Builder, Unlimited Bandwidth, cPanel Included, Unlimited Email Addresses"
+WordPress Hosting,$3.69,"Free Domain & SSL, Free Website Builder, Free Premium Themes & Plugins, PHP-FPM Workers Included, Unlimited Email Addresses"
+VPS Hosting,$9.99,"High-Availability Servers, cPanel and Control Web Panel Available, Free Website Transfers (with a Control Panel), Cloud-Powered Reliability, Isolated Resources with Hardened Security"
+Dedicated Hosting,$35.00,"Configurable Server For Ultimate Flexibility, Redundant Infrastructure With 99.99% Uptime, Choose Between Managed With cPanel or Unmanaged Bare Metal"

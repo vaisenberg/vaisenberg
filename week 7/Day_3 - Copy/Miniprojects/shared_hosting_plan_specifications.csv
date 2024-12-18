@@ -1,0 +1,18 @@
+Feature,Aspire $35/mo,Essential $99.99/mo,Advanced $169.99/mo,Elite $219.99/mo,Extreme $249.99/mo
+Intel® CPU Specs,Xeon® E3-1246 v3 *,Xeon® E-2134 *,Xeon® E-2176G *,Xeon® E-2388G *,Xeon® E-2388G *
+Cores / Threads,4C / 8T,4C / 8T,6C / 12T,8C / 16T,8C / 16T
+Available RAM,16GB DDR3,32GB DDR4,64GB DDR4,128GB DDR4,128GB DDR4
+Disk Space,1TB SSD,2TB SSD,2x1TB SSD,2x2TB NVMe SSD,2x4TB NVMe SSD
+RAID Technology,--,--,RAID-1,RAID-1,RAID-1
+Unmetered Uplink Connection,Up to 1 Gbps,Up to 1 Gbps,Up to 1 Gbps,Up to 1 Gbps,Up to 1 Gbps
+Clock Speed,3.90GHz,4.50GHz Turbo,4.50GHz Turbo,5.10GHz Turbo,5.10GHz Turbo
+CPU Cache,8MB,8MB,12MB,16MB,16MB
+Front Side Bus/Intel® QPI,5.0 GT/s,8.0 GT/s,8.0 GT/s,8.0 GT/s,8.0 GT/s
+Dedicated IP Addresses,1,5,10,16,32
+Free Backup Storage,10GB,50GB,100GB,250GB,500GB
+"Phone, Chat and Ticket Support",Chat and Ticket Only,Chat and Ticket Only,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
